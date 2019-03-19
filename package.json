@@ -1,0 +1,22 @@
+{
+  "name": "reader",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server-deploy": "cd server && rm -rf target && mvn package && serverless deploy -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdridi/reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdridi/reader/issues"
+  },
+  "homepage": "https://github.com/kdridi/reader#readme",
+  "devDependencies": {
+    "serverless": "^1.39.1"
+  }
+}
